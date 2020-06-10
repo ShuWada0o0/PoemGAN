@@ -48,7 +48,7 @@ with open("generateFailPath") as f:
                 
                 if flag == 3:
                     
-                    writer.writerow(words)
+                    writer.writerow(word)
             except ValueError:
                 pass
                 
